@@ -1,0 +1,8 @@
+install whois module,
+if you need support of .su and .pro zones, use my fork of whois:
+pip3 install --upgrade git+https://github.com/alter/python-whois.git
+
+./paid-domain.py3 ag-up.com                                         
+244
+
+Now you can set it in zabbix and alert when you need to pay for domain.
